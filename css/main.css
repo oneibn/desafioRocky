@@ -1,0 +1,454 @@
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 9px;
+}
+
+body {
+	position: absolute;
+	top: 0;
+	width: 1920px;
+	height: 5355px;
+	margin: 0;
+	background: transparent url("../img/web/bg.png") 0% 0% no-repeat padding-box;
+	background-size: cover;
+	background-position: center;
+	opacity: 1;
+}
+
+header {
+	position: absolute;
+	background-color: transparent;
+	width: 100%;
+	z-index: 999;
+}
+
+.header-menu {
+	/* Layout */
+	display: flex;
+	margin: auto;
+	padding: auto;
+	height: 112px;
+	align-items: center;
+	justify-content: space-between;
+	
+	/* UI */
+	background: transparent #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	opacity: 1;
+}
+
+.header-logo {
+	flex: 1 1 auto;
+	display: block;
+	align-items: center;
+	text-align: center;	
+}
+
+nav {
+	display: inline-block;
+	padding: auto;
+	margin: auto;
+	flex: 3 1 auto;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: space-between;
+	list-style: none;
+	margin: auto;
+}
+
+nav ul > li {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+nav a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.menu {
+	/* Text */
+	background-color: transparent;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+}	
+
+.front-page {
+	width: 100%;
+	height: 1080px;
+	position: absolute;
+	top: 0;
+	background: transparent url("../img/web/s1 ft1.png") 0% 0% no-repeat padding-box;
+	background-position: center;
+	background-size: cover;
+	opacity: 1;
+}
+
+.front-container {
+	width: 100%;
+	position: absolute;	
+	height: 100%;
+
+}
+.main-title {
+	margin-top: 221px;
+	font: normal normal 800 141px/198px Montserrat, sans-serif;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	text-align: center;
+	opacity: 1;
+}
+
+.main-description {
+	font: normal normal 20px/30px Montserrat, sans-serif;
+	letter-spacing: 0;
+	color: #FFFFFF;
+	text-align: center;
+
+}
+.main-description span {
+	font: normal normal bold 20px/30px Montserrat, sans-serif;
+	color: #EFE60B;
+}
+
+.front-page-buttom {
+	display: block;
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	align-items: center;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: #1CD4E9 0% 0% no-repeat padding-box;
+	border: 30px solid #1CD4E9;
+	border-radius: 42px;
+
+}
+
+.page-content {
+	position: absolute;
+	top: 1080px;
+	width: 100%;
+	height: 3170px;
+       	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+.sobre-page h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1211px;
+	margin: 100px 0 130px 140px;
+	font: normal normal bold 60px/30px Montserrat, sans-serif;
+}
+
+.container-sobre-description {
+	position: center;
+	max-width: 1211px;
+	margin: auto auto auto auto;
+	padding: 48px 0 48px 0;
+	display: grid;
+	grid-template-rows: auto;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 0px 30px #0000004D;
+	opacity: 1;
+}
+
+.container-sobre-description div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container-sobre-description div > p {
+	max-width: 1119px;
+	font: normal normal normal 20px/30px Montserrat, sans-serif;
+}
+
+.servicos-page h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1211px;
+	margin-left: 140px;
+	margin-bottom: 130px;
+	font: normal normal bold 60px/30px Montserrat, sans-serif;
+}
+
+.serviços-page div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.container-servicos {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container-servicos div {
+	width: 514px;
+	height: 648px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	box-shadow: 0px 3px 15px #0000001A;
+	border-radius: 33px;
+	opacity: 1;
+}
+
+.container-servicos div > h3 {
+	text-align: left;
+	font: normal normal bold 30px/37px Montserrat, sans-serif;
+	letter-spacing: 0px;
+	color: #EFE60B;
+	opacity: 1;
+}
+
+.container-servicos div > p {
+	max-width: 397px;
+	text-align: center;
+	font: normal normal 25px/30px Montserrat, sans-serif;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+
+#servicos-servicos {
+	background: transparent url('../img/web/s3 ft1.png') 0% 0% no-repeat padding-box;
+	background-size: cover;
+	background-position: center;
+}
+
+#servicos-media {
+	background: transparent url('../img/web/s3 ft2.png') 0% 0% no-repeat padding-box;
+	background-size: cover;
+	background-position: center;
+}
+
+#servicos-implement {
+	background: transparent url('../img/web/s3 ft3.png') 0% 0% no-repeat padding-box;
+	background-size: cover;
+	background-position: center;
+}
+
+.diferenciais-page {
+
+}
+
+.diferenciais-page h2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1211px;
+	margin-left: 140px;
+	margin-bottom: 130px;
+	font: normal normal bold 60px/30px Montserrat, sans-serif;
+}
+
+.container-diferenciais {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.container-diferenciais div {
+	width: 389px;
+	height: 670px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	background: #000000 0% 0% no-repeat padding-box;
+	box-shadow: 0px 5px 15px #00000029;
+	border-radius: 51px;
+	opacity: 1;
+}
+
+#diferenciais-1 {
+	background: transparent url('../img/web/s4 ft1.png') 0% 0% no-repeat padding-box;
+	background-size: cover;
+	background-position: center;
+}
+
+#diferenciais-2 {
+	background: transparent url('../img/web/s4 ft2.png') 0% 0% no-repeat padding-box;
+	background-size: cover;
+	background-position: center;
+}
+
+#diferenciais-3 {
+	background: transparent url('../img/web/s4 ft3.png') 0% 0% no-repeat padding-box;
+	background-size: cover;
+	background-position: center;
+}
+
+.container-diferenciais div > p {
+	width: 260px;
+	height: 274px;
+	margin-top: 78px;
+	text-align: center;
+	font: normal normal bold 20px/30px Montserrat;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-shadow: 0px 3px 10px #00000029;
+	opacity: 1;	
+}
+
+.contato-page {
+	position: absolute;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	top: 4249px;
+	height: 940px;
+	width: 100%;
+	border-top: 83px solid #EFE60B;
+	border-bottom: 83px solid #EFE60B;
+	background: #000000E6 0% 0% no-repeat padding-box;
+	background-size: cover;
+	opacity: 1;
+}
+
+.contato-descricao {
+	max-width: 572px;
+	margin-left: 140px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+}
+
+.contato-info {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.contato-info div{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+
+.email {
+	align-items: flex-start;
+	justify-content: flex-start;
+	border-right: 1px solid #FFFFFF;
+	opacity: 1;
+}
+
+.phone {
+	align-items: flex-end;
+	justify-content: flex-end;
+	border-left: 1px solid #FFFFFF;
+	opacity: 1;
+}
+
+.phone {
+	align-items: flex-end;
+	justify-content: flex-end;
+	flex-wrap: nowrap;
+
+}
+
+
+.contato-info div p > i {
+	font-size: 24px;
+	color: #EFE60B;
+	margin-right: 10px;
+}
+
+.contato-info div > p {
+	text-align: center;
+	font: normal normal normal 20px/30px Montserrat, sans-serif;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}	
+
+.contato-descricao p {
+	text-align: left;
+	font: normal normal bold 20px/30px Montserrat, sans-serif;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+}
+
+#yellow-text > span {
+	color: #EFE60B;
+}
+
+#contato-links {
+	text-align: left;
+	font: normal normal bold 20px/30px Montserrat;
+	letter-spacing: 0px;
+}
+
+#contato-links > a {
+	text-decoration: none;
+	color: #1CD4E9;
+}
+
+.contato-container {
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.contato-box {
+	width: 681px;
+	height: 775px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #818181 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+
+.form div {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.form div > input {
+	width: 621px;
+	height: 76px;
+	text-align: left;
+	font: normal normal 30px/25px Montserrat, sans-serif;
+	letter-spacing: 0px;
+	color: #D1D1D1;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
+
+#mensagem {
+	height: 200px;
+}
+
+.form button {
+	width: 100%;
+	height: 77px;
+	display: block;
+	margin-top: 35px;
+	border: 0;
+	font: normal normal bold 29px/24px Montserrat, sans-serif;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	background: #1CD4E9 0% 0% no-repeat padding-box;
+	opacity: 1;	
+}
